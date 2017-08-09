@@ -1,0 +1,244 @@
+<html>
+  <head>
+    <meta charset="utf8">
+    <title>SuitArt Business Card</title>
+    <style >
+    body{
+      padding-top: 15px;
+    }
+    .img {
+      padding-top: 20px;
+      width: 120px !important;
+      border-right: 2px solid red;
+      height: 100px;
+    }
+    .title,.address,.phone,.email{
+      font-size: 10px;
+    }
+    .label,.value{
+      font-size: 12px;
+    }
+    .row{
+      padding: 10px 5px 0px 20px;
+      height: 130px;
+    }
+    .column{
+    padding-left: 15px;
+    float: left;
+    width: 33%;
+    line-height: 20px;
+    }
+    .saloondetails,.summary{
+      padding-top: 20px;
+    }
+    .customer-title{
+      width: 120px !important;
+      border-right: 2px solid red;
+      height: 100px;
+    }
+    .invoice-table{
+      padding: 10px 5px 0px 20px; 
+      text-align: center !important;
+    }
+    .simple{
+      min-width: 100% !important;
+      padding: 10px 25px 10px 10px;
+    }
+    .t-header{
+      width: 20% !important;
+      text-align: left;
+      padding-left: 15px;
+    }
+    .t-body{
+      padding-top: 10px;
+    }
+    .t-bodyrow{
+      height: 25px;
+    }
+    .t-content{
+      line-height: 15px;
+      text-align: left;
+      font-size: 10px !important;
+      width: 20%;
+      padding-left: 15px;
+      border-bottom: 1px solid red;
+    }
+    .tot-content{
+      text-align: left;
+      font-size: 12px !important;
+      font-weight: 700;
+      width: 20%;
+      padding-left: 15px;
+    }
+    .total-content{
+      border-top: 2px solid red;
+      text-align: left;
+      font-size: 12px !important;
+      font-weight: 700;
+      width: 20%;
+      padding-left: 15px;
+    }
+    .footer{
+      padding:30px;
+    }
+    .note{
+      font-size: 12px;
+      font-weight: 700;
+      padding: 10px;
+
+    }
+    .img-footer{
+      padding-top: 20px;
+      width: auto !important;
+    }
+    .small-note-column{
+      padding-left: 25px;
+      width: 70%;
+      float: left;
+    }
+    .small-note{
+      font-size: 9px !important;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column img">
+        <img src="file:///Users/rda/Downloads/512x512.png" style="width:100px">
+      </div>
+      <div class="column saloondetails">
+        <div class="title">NATURALS</div>
+        <div  class="address">Near ICICI bank, singanallur, Coimbatore</div>
+        <div class="phone"><span>Phone</span>:
+            999999999
+        </div>
+        <div class="email"><span>Email</span>:
+            naturals@abc
+        </div>
+      </div>
+      <div class="column">
+        <table class="summary">
+          <tr class="code">
+              <td class="label">INVOICE</td>
+              <td class="value">0001</td>
+          </tr>
+
+          <tr>
+              <td class="label">INVOICE DATE</td>
+              <td class="value">08/08/2017</td>
+          </tr>
+          <tr>
+              <td class="label" >TOTAL AMOUNT</td>
+              <td class="value">Rs. 200</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column customer-title">
+        <p style="font-size: 25px;padding-top: 15px;">Customer</p>
+      </div>
+      <div class="column saloondetails">
+          <div class="title">Kaviyarasan</div>
+          <div  class="phone"><span>Phone</span>:
+              888888888
+          </div>
+          <div  class="email"><span>Email</span>:
+              kaviyarasan@abc
+          </div>
+      </div>
+    </div>
+    <div class="invoice-table">
+      <table class="simple">
+        <thead>
+          <tr style="font-size:12px; height:30px;" >
+          <th class="t-header">SERVICE</th>
+          <th class="t-header">UNIT</th>
+          <th class="t-header" >UNIT PRICE</th>
+          <th class="t-header" >QUANTITY</th>
+          <th class="t-header" >TOTAL</th>
+        </tr>
+        </thead>
+        <tbody class="t-body">
+          <tr style="padding-top:20px;" class="t-bodyrow">
+            <td class="t-content"><div class="title"> HAIR CUT</div></td>
+            <td class="t-content">10 Mins</td >
+            <td class="t-content">RS.100</td>
+            <td class="t-content">1</td>
+            <td class="t-content">Rs. 100</td>
+          </tr>
+          <tr style="padding-top:20px;" class="t-bodyrow">
+            <td class="t-content"><div class="title"> SHAVE</div></td>
+            <td class="t-content">10 Mins</td >
+            <td class="t-content">RS.100</td>
+            <td class="t-content">1</td>
+            <td class="t-content">Rs. 100</td>
+          </tr>
+          <tr style="padding-top:20px;" class="t-bodyrow">
+            <td class="t-content"><div class="title"> TRIMMING</div></td>
+            <td class="t-content">10 Mins</td >
+            <td class="t-content">RS.100</td>
+            <td class="t-content">1</td>
+            <td class="t-content">Rs. 100</td>
+          </tr>
+          <tr style="padding-top:20px;" class="t-bodyrow">
+            <td class="t-content"><div class="title"> FACIAL</div></td>
+            <td class="t-content">10 Mins</td >
+            <td class="t-content">RS.100</td>
+            <td class="t-content">1</td>
+            <td class="t-content">Rs. 100</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="invoice-table">
+      <table class="simple">
+        <tbody class="t-body">
+          <tr style="padding-top:20px;" class="t-bodyrow">
+            <td class="tot-content"><div class="title">SUB TOTAL</div></td>
+            <td class="tot-content"></td >
+            <td class="tot-content"></td>
+            <td class="tot-content"></td>
+            <td class="tot-content">Rs. 100</td>
+          </tr>
+          <tr style="padding-top:20px;" class="t-bodyrow">
+            <td class="tot-content"><div class="title">TAX</div></td>
+            <td class="tot-content"></td >
+            <td class="tot-content"></td>
+            <td class="tot-content"></td>
+            <td class="tot-content">Rs. 10</td>
+          </tr>
+          <tr style="padding-top:20px;" class="t-bodyrow">
+            <td class="tot-content"><div class="title">DISCOUNT</div></td>
+            <td class="tot-content"></td >
+            <td class="tot-content"></td>
+            <td class="tot-content"></td>
+            <td class="tot-content">Rs. 0</td>
+          </tr>
+          <tr style="padding-top:20px;" class="t-bodyrow">
+            <td class="total-content"><div class="title">TOTAL</div></td>
+            <td class="total-content"></td >
+            <td class="total-content"></td>
+            <td class="total-content"></td>
+            <td class="total-content">Rs. 110</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="footer">
+      <div class="note" >Please pay within 15 days. Thank you for your business.</div>
+      <div class="row-footer">
+      <div class="column img-footer">
+        <img src="file:///Users/rda/Downloads/512x512.png" style="width:50px">
+      </div>
+      <div class="column small-note-column">
+        <p class="small-note">
+          In condimentum malesuada efficitur. Mauris volutpat placerat auctor. Ut ac congue dolor. Quisque scelerisque lacus sed feugiat fermentum. Cras aliquet facilisis pellentesque. Nunc hendrerit quam at leo commodo, a suscipit tellus dapibus. Etiam at felis volutpat est mollis lacinia. Mauris placerat sem sit amet velit mollis, in porttitor ex finibus. Proin eu nibh id liberotincidunt lacinia et eget eros.
+          <p>
+      </div>
+    </div>
+    </div>
+               
+  
+  </body>
+</html>
