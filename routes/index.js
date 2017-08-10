@@ -3,7 +3,7 @@ var express = require('express');
 
 var fs = require('fs');
 var pdf = require('html-pdf');
-var html = fs.readFileSync('./test/businesscard.html', 'utf8');
+var html = fs.readFileSync('./businesscard.html', 'utf8');
 var options = { format: 'A4' };
 
 var router = express.Router();
